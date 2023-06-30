@@ -1,4 +1,4 @@
-FROM ubi9/nodejs-18
+FROM node:16.20.0
 
 # Set the working directory in the Docker image
 WORKDIR /app
